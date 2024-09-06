@@ -19,7 +19,7 @@ const Title = ({ text }) => {
     }
   }, [currentIndex, text]);
 
-  return <div className='text-5xl font-bold md:h-10 h-40'>{displayText}</div>;
+  return <div className='text-5xl font-bold md:h-10 h-40 text-white'>{displayText}</div>;
 };
 
 export default Title;

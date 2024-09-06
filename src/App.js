@@ -13,7 +13,7 @@ function App() {
     setToggleHeader(!toggleHeader);
   }
   return (
-    <div className="bg-black opacity-90 flex flex-col items-center">
+    <div className="bg-white opacity-90 flex flex-col items-center">
       <Header fun={toggle}/>
       <MobileSidebar val={toggleHeader}/>
       <Banner/>

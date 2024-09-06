@@ -4,8 +4,8 @@ import ScrollIntoView from 'react-scroll-into-view'
 
 const Header = ({fun}) => {
   return (
-    <div className='flex justify-end items-center shadow-md shadow-white w-full'>
-        <div className='text-white p-6 hidden md:flex '>
+    <div className='flex justify-end items-center shadow-md shadow-gyey w-full'>
+        <div className='text-black p-6 hidden md:flex '>
             <ScrollIntoView selector='#home'>
               <button className='mx-2 hover:transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200'>Home</button>
             </ScrollIntoView>
